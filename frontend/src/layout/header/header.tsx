@@ -33,7 +33,7 @@ const Header = () => {
             <span className={`${styles["brand-shimmer"]} ${styles.logoName}`}>Mirage Hunter</span>{" "}
             <span className={`${styles["brand-shimmer"]} ${styles.logoAccent}`}>AI</span>
           </Link>
-          <small className={styles.credit}>by sudo H2T-VN</small>
+          <small className={styles.credit}>By sudo H2T-VN</small>
         </div>
 
         <form className={styles.searchBar} role="search" onSubmit={handleSearch}>
@@ -55,7 +55,7 @@ const Header = () => {
           </Link>
 
           <Link className={styles.actionButton} to={HOME_PATH}>
-            Trang chủ
+            Kiểm thử
           </Link>
         </div>
       </div>

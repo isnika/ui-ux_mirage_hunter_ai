@@ -7,7 +7,8 @@ const Footer = () => {
       <div className={styles.container}>
         <div className={styles.brandBlock}>
           <Link className={styles.brand} to="/mainLayout">
-            Mirage Hunter <span>AI</span>
+            <span className={`${styles["brand-shimmer"]} ${styles.logoName}`}>Mirage Hunter</span>{" "}
+            <span className={`${styles["brand-shimmer"]} ${styles.logoAccent}`}>AI</span>
           </Link>
           <p> Nền tảng đánh giá độ ổn định và tái lập lỗi của mô hình phân loại ảnh.</p>
         </div>

@@ -21,7 +21,7 @@ const HeroBanner = () => {
 
         <div className={styles.actions}>
           <Link className={styles.primaryButton} to="/hunts/new">
-            Thử demo <span aria-hidden="true">→</span>
+            Demo
           </Link>
 
           <Link className={styles.secondaryButton} to="/models">
@@ -55,7 +55,7 @@ const HeroBanner = () => {
         </div>
 
         <figcaption className={styles.caption}>
-          Thông số biến đổi minh họa
+          Thông số biến đổi dùng để kiểm thử mô hình
         </figcaption>
       </figure>
     </section>

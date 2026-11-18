@@ -14,7 +14,7 @@
   max-width: none;
   min-height: 72px;
   margin: 0 auto;
-  padding: 12px 250px;
+  padding: 12px 100px;
 }
 
 .brand {
@@ -38,10 +38,11 @@
 .credit {
   color: #111827;
   font-size: 0.68rem;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.04em;
   line-height: 1;
   margin-top: 3px;
+  font-style: italic;
 }
 
 .logoName {
